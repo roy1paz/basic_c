@@ -1,3 +1,12 @@
+/**
+ * Author: Roy Paz
+ *
+ * Checking if the input number is a palindrome.
+ *
+ * Input: Integer.
+ * Output: 1 for a palindrome number, and 0 if the number isn't.
+ */
+
 #include <stdio.h>
 
 int reverse(int num);

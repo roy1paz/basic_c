@@ -1,3 +1,13 @@
+/**
+ * Author: Roy Paz
+ *
+ * Greedy algorithm basic implementation.
+ *
+ * Input: Integer, amount of money in NIS (bills and coins allowed), only Shekels without Agorot.
+ * Output: Integer, minimum amount of coins required for change.
+ *
+ */
+
 #include <stdio.h>
 
 int greedy(int bill);

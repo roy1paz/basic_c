@@ -1,3 +1,12 @@
+/**
+ * Author: Roy Paz
+ *
+ * Algorithm that checks whether it's an even or odd number.
+ *
+ * Input: integer.
+ * Output: Even number or Odd number.
+ */
+
 #include <stdio.h>
 
 main() {

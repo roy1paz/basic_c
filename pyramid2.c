@@ -1,3 +1,12 @@
+/**
+ * Author: Roy Paz
+ *
+ * Pyramid made of asterisks.
+ *
+ * Input: Integer, number of lines for the pyramid.
+ * Output: Pyramid made of asterisks.
+ */
+
 #include <stdio.h>
 
 int main() {

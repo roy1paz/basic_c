@@ -1,3 +1,12 @@
+/**
+ * Author: Roy Paz
+ *
+ * Algorithm that reverse the number.
+ *
+ * Input: Integer, the number that will be reversed.
+ * Output: The reversed number.
+ */
+
 #include <stdio.h>
 
 int reverse(int num);

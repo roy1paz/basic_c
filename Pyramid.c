@@ -1,4 +1,13 @@
-#include <stdio.h>
+/**
+ * Author: Roy Paz
+ *
+ * Triangle made of asterisks.
+ *
+ * Input: Integer, number of lines for the triangle.
+ * Output: Triangle made of asterisks.
+ */
+
+ #include <stdio.h>
 
 main() {
 	

@@ -1,3 +1,12 @@
+/**
+ * Author: Roy Paz
+ *
+ * Algorithm that reverse a string.
+ *
+ * Input: string, the string that will be reversed.
+ * Output: The reversed string.
+ */
+
 #include <stdio.h>
 
 int main() {
