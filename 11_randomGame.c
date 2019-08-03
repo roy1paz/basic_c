@@ -6,7 +6,7 @@
  * Input: Integer between 1 to 3.
  * Output: Win if the random output is equal to the input. 
  */
-
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 
@@ -16,7 +16,7 @@ int main() {
 	time_t t;
 	int num, random;
 	srand((unsigned) time(&t));
-	
+
 	do {
 		random = 1 + rand() % 3;
 		printf("Enter a number between 1 to 3: ");
