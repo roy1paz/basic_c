@@ -1,3 +1,13 @@
+/**
+ * Author: Roy Paz
+ *
+ * Basic input output.
+ *
+ * Input: String, a name.
+ * Output: The string name + "the hacker".
+ *
+ */
+
 #include <stdio.h>
 
 main() {
