@@ -3,7 +3,7 @@
  *
  * Game of input and random output.
  *
- * Input: Integer between 0 to 3.
+ * Input: Integer between 1 to 3.
  * Output: Win if the random output is equal to the input. 
  */
 
@@ -16,9 +16,9 @@
  	int num;
  	srand((unsigned) time(&t));
 
- 	printf("Enter a number between 0 to 3: ");
+ 	printf("Enter a number between 1 to 3: ");
  	scanf("%d", &num);
-	if (num == rand() % 4) {
+	if (num == 1 + rand() % 4) {
 		printf("You win!\n");
 	}
 
