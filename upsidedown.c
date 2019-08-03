@@ -6,6 +6,7 @@
  * Input: Integer, number of lines for the pyramid.
  * Output: Upside down pyramid made of asterisks.
  */
+
 #include <stdio.h>
 
 int main() {
