@@ -14,18 +14,20 @@
 
  	char again;
  	time_t t;
- 	int num;
+ 	int num, random;
  	srand((unsigned) time(&t));
+ 	
  	do {
-
+ 		random = 1 + rand() % 3;
  		printf("Enter a number between 1 to 3: ");
  		scanf("%d", &num);
+ 		printf("The random number is: %d\n", random);
  		if (num > 3 || num < 1) {
 
  			printf("Wrong number\n");
  		}
 
-		else if (num == 1 + rand() % 3) {
+		else if (num == random) {
 
 			printf("You win!\n");
 		}	
@@ -36,28 +38,13 @@
 		}
 		do {
 	  	printf("Play again? (y/n): ");
-    	scanf("%c", &again);
+	  	scanf("%c", &again);
    		}while (again != 'y' && again != 'Y' && again != 'n' && again != 'N'); // The user can enter only: n, N, Y, y.
 
-    }while ((again == 'y') || (again == 'Y')); // Run the code again.
-      
-   	printf("Arrivederci!\n"); // In case that the user choose 'n' 'N'.
+	}while ((again == 'y') || (again == 'Y')); // Run the code again.
+
+	printf("Arrivederci!\n"); // In case that the user choose 'n' 'N'.
 
 	return 0;
 }
 
-
-
-
-/*
-		printf("Play again? (y/n): \n");
-      	scanf("%c", &again);
-      	/* if (again == 'n' || again == 'N') {
-
-      		printf("Arrivederci\n");
-      	}
-
-      	else {
-
-      		printf("Try again.\n");
-      	*/
