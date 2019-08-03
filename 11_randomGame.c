@@ -10,22 +10,22 @@
 #include <time.h>
 #include <stdlib.h>
 
- int main() {
+int main() {
 
- 	char again;
- 	time_t t;
- 	int num, random;
- 	srand((unsigned) time(&t));
- 	
- 	do {
- 		random = 1 + rand() % 3;
- 		printf("Enter a number between 1 to 3: ");
- 		scanf("%d", &num);
- 		printf("The random number is: %d\n", random);
- 		if (num > 3 || num < 1) {
+	char again;
+	time_t t;
+	int num, random;
+	srand((unsigned) time(&t));
+	
+	do {
+		random = 1 + rand() % 3;
+		printf("Enter a number between 1 to 3: ");
+		scanf("%d", &num);
+		printf("The random number is: %d\n", random);
+		if (num > 3 || num < 1) {
 
- 			printf("Wrong number\n");
- 		}
+			printf("Wrong number\n");
+		}
 
 		else if (num == random) {
 
@@ -37,8 +37,8 @@
 			printf("You lose!\n");
 		}
 		do {
-	  	printf("Play again? (y/n): ");
-	  	scanf("%c", &again);
+			printf("Play again? (y/n): ");
+			scanf("%c", &again);
    		}while (again != 'y' && again != 'Y' && again != 'n' && again != 'N'); // The user can enter only: n, N, Y, y.
 
 	}while ((again == 'y') || (again == 'Y')); // Run the code again.
