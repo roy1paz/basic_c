@@ -16,7 +16,7 @@
  	int num;
  	srand((unsigned) time(&t));
 
- 	printf("Enter a number between 1 to 3: ");
+ 	printf("Enter a number between 0 to 3: ");
  	scanf("%d", &num);
 	if (num == rand() % 4) {
 		printf("You win!\n");
