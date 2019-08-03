@@ -6,6 +6,7 @@
  * Input: Integer between 1 to 3.
  * Output: Win if the random output is equal to the input. 
  */
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -38,7 +39,7 @@ int main() {
 		}
 		do {
 			printf("Play again? (y/n): ");
-			scanf("%c", &again);
+			scanf(" %c", &again);
    		}while (again != 'y' && again != 'Y' && again != 'n' && again != 'N'); // The user can enter only: n, N, Y, y.
 
 	}while ((again == 'y') || (again == 'Y')); // Run the code again.
@@ -47,4 +48,3 @@ int main() {
 
 	return 0;
 }
-
