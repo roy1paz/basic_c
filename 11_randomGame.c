@@ -3,8 +3,8 @@
  *
  * Game of input and random output.
  *
- * Input: integer between 1 to 3.
- * Output: win if the random output is equal to the input. 
+ * Input: Integer between 0 to 3.
+ * Output: Win if the random output is equal to the input. 
  */
 
 #include <time.h>
