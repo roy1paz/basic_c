@@ -18,7 +18,7 @@
 
  	printf("Enter a number between 1 to 3: ");
  	scanf("%d", &num);
-	if (num == 1 + rand() % 4) {
+	if (num == 1 + rand() % 3) {
 		printf("You win!\n");
 	}
 
