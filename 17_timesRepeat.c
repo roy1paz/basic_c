@@ -1,12 +1,11 @@
 /**
  * Author: Roy Paz
  *
- * Algorithm which count occurrences of each character.
+ * Algorithm which counts occurrences of each character.
  * 
  * Input: String.
  * Output: Each character from the string and the occurrences number.
  */
-
 #include <stdio.h>
 #define MAX 128
 
