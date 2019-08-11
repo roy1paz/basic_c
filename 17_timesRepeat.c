@@ -7,13 +7,13 @@
  * Output: Each character from the string and the occurrences number.
  */
 #include <stdio.h>
-#define MAX 128
+#define CHAR_RANGE 128
 
 int main() {
 	
 	int i;
-	char str[MAX];
-	int counter[MAX] = { };
+	char str[100];
+	int counter[CHAR_RANGE] = { };
 
 	printf("Please enter a string: ");
 	scanf("%s", str);
@@ -22,7 +22,7 @@ int main() {
 	}
 
 	printf("Number of occurrence:\n");
-	for (i = 0; i < MAX; i++) {
+	for (i = 0; i < CHAR_RANGE; i++) {
 		if(counter[i] > 0) { // If the current number is bigger then 0, print the character and then the numer of appearances.
 		printf("%c = %d\n", i, counter[i]); 
 		}
